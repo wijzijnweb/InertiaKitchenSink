@@ -1,15 +1,13 @@
 {
-    "name": "exapps/kitchen-sink",
+    "name": "exapps/inertia-kitchen-sink",
     "description": ":package_description",
     "license": "MIT",
     "authors": [
         {
-            "name": "Author Name",
-            "email": "author@email.com",
-            "homepage": "http://author.com"
+            "name": "Tim"
         }
     ],
-    "homepage": "https://github.com/exapps/kitchen-sink",
+    "homepage": "https://github.com/exapps/InertiaKitchenSink",
     "keywords": ["Laravel", "KitchenSink"],
     "require": {
         "illuminate/support": "~9"
