@@ -1,0 +1,41 @@
+{
+    "name": "exapps/kitchen-sink",
+    "description": ":package_description",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Author Name",
+            "email": "author@email.com",
+            "homepage": "http://author.com"
+        }
+    ],
+    "homepage": "https://github.com/exapps/kitchen-sink",
+    "keywords": ["Laravel", "KitchenSink"],
+    "require": {
+        "illuminate/support": "~9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.0",
+        "orchestra/testbench": "~7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Exapps\\KitchenSink\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Exapps\\KitchenSink\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Exapps\\KitchenSink\\KitchenSinkServiceProvider"
+            ],
+            "aliases": {
+                "KitchenSink": "Exapps\\KitchenSink\\Facades\\KitchenSink"
+            }
+        }
+    }
+}
