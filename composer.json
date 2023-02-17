@@ -1,5 +1,5 @@
 {
-    "name": "exapps/inertia-kitchen-sink",
+    "name": "wijzijnweb/inertia-kitchen-sink",
     "description": ":package_description",
     "license": "MIT",
     "authors": [
@@ -7,7 +7,7 @@
             "name": "Tim"
         }
     ],
-    "homepage": "https://github.com/exapps/InertiaKitchenSink",
+    "homepage": "https://github.com/wijzijnweb/InertiaKitchenSink",
     "keywords": ["Laravel", "KitchenSink"],
     "require": {
         "illuminate/support": "~9"
